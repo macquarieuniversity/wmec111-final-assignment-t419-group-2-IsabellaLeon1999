@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0.92156863}
   m_FogMode: 3
-  m_FogDensity: 0.3
+  m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -48,7 +48,7 @@ LightmapSettings:
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
-    m_IndirectOutputScale: 1
+    m_IndirectOutputScale: 0.32
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
@@ -26594,7 +26594,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8666667}
+  m_Color: {r: 0.21698111, g: 0.2147148, b: 0.18525274, a: 0.8666667}
   m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
@@ -26603,7 +26603,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.59
     m_Bias: 0.09
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -26628,13 +26628,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 748766606}
-  m_LocalRotation: {x: 0.026128413, y: -0.9349532, z: -0.070456736, w: -0.3467211}
-  m_LocalPosition: {x: -45321.1, y: -10656.55, z: 26503.672}
+  m_LocalRotation: {x: 0.04463806, y: -0.93425256, z: -0.06357686, w: -0.34804842}
+  m_LocalPosition: {x: -45322.93, y: -10656.663, z: 26504.766}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1598161590}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -8.619, y: -30.000002, z: 0}
+  m_LocalEulerAnglesHint: {x: -8.619, y: 139.306, z: -2.269}
 --- !u!43 &764760096
 Mesh:
   m_ObjectHideFlags: 0
@@ -56335,11 +56335,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_WalkSpeed
-      value: 9
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RunSpeed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_Height
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
